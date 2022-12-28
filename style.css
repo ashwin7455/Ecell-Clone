@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Mukta:wght@200;400&family=Overpass:wght@200&family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Mukta:wght@200;400&family=Overpass:wght@200&family=Signika+Negative:wght@500&family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Montserrat:wght@300;600&family=Mukta:wght@200;400&family=Overpass:wght@200&family=Signika+Negative:wght@500&family=Solway&display=swap');
+*{
+margin: 0;
+padding: 0;
+}
+
+
+/* .nav{
+    padding: 10px 10%;
+}
+
+
+.brand{
+    width:180px;
+    display: flex;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.container{
+    padding: 10px 10%;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Signika Negative', sans-serif;
+}
+.navbar{
+    z-index: 99999;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    font-family: 'Signika Negative', sans-serif;
+}
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background:#06d106;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: .5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+} */
+
+.navbar{
+    padding: 10px 10%;
+    background-color: #fff;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: 'Signika Negative', sans-serif;
+    margin-left: 40px;
+}
+nav img{
+    width: 6%;
+    margin-right: 2%;
+}
+nav ul{
+    margin-left: 45%;
+}
+
+nav ul li {
+    
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    font-family: 'Signika Negative', sans-serif;
+}
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background:#5367d7;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: .5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.header-text{
+    max-width:50%;
+   margin-top: 10%;  
+   font-size: 30px;
+   /* font-family: 'Signika Negative', sans-serif ; */
+   margin-left: 8%;
+}
+.header-text h1{
+   font-size: 60px;
+   margin-top: 20px;
+   font-family: 'Signika Negative', sans-serif;
+}
+.header-text h2{
+    font-family: 'Signika Negative', sans-serif;
+}
+.header-text h1 span{
+   color: #5367d7;
+   font-family: 'Signika Negative', sans-serif;
+}
+
+.header-text.font{
+    margin-top:  5%;
+    font-family:Arial, Helvetica, sans-serif
+}
