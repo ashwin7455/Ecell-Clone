@@ -165,7 +165,7 @@ nav .fa-solid{
     width: fit-content;
     border: 1px solid #4644a8;
     padding: 14px 50px;
-    border-radius: 6px;
+    border-radius: 13px;
     text-decoration: none;
     color: #4644a8;
     transition: 0.5s;
@@ -202,13 +202,15 @@ nav .fa-solid{
 .para2{
     margin-top: 5%;
     width: 100%;
-    justify-content: center;
-    text-align:justify;
+    /* justify-content: center;
+    text-align:justify; */
     /* padding: 10%; */
 }
 .content2{
     color: #8c8b9e;
     font-size: 27px;
+    justify-content: center;
+    text-align:justify;
     font-family: 'Signika Negative', sans-serif;
 }
 .btn2{
@@ -217,7 +219,7 @@ nav .fa-solid{
     width: fit-content;
     border: 1px solid #4644a8;
     padding: 14px 50px;
-    border-radius: 6px;
+    border-radius: 13px;
     text-decoration: none;
     color: #4644a8;
     transition: 0.5s;
@@ -258,7 +260,7 @@ nav .fa-solid{
     justify-content: center;
     text-align:center;
 }
-.para3{
+.para2{
     /* margin-top: 5%; */
     width: 100%;
         justify-content: center;
@@ -270,7 +272,12 @@ nav .fa-solid{
     font-size: 27px;
     font-family: 'Signika Negative', sans-serif;
 }
-
+.content3 span{
+    font-weight: bolder;
+}
+/* .button{
+    display: flex;
+} */
 
 /* .card{
     padding: 30px 0;
@@ -318,6 +325,174 @@ nav .fa-solid{
     transform: translateY(-10px);
 }
 
+.btn3{
+    /* display: block; */
+    display: inline-block;
+    
+    margin-top: 20px;
+    width: fit-content;
+    border: 1px solid #4644a8;
+    padding: 14px 50px;
+    border-radius: 13px;
+    text-decoration: none;
+    color: #4644a8;
+    transition: 0.5s;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn3:hover{
+    background-color: #4644a8;
+    color: black;
+}
+
+.btnIN{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: fit-content;
+    border: 1px solid #4644a8;
+    padding: 14px 50px;
+    border-radius: 13px;
+    text-decoration: none;
+    color: #4644a8;
+    transition: 0.5s;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btnIN:hover{
+    background-color: #4644a8;
+    color: black;
+}
+
+.header-text5{
+    max-width:100%;
+    font-size: 30px;
+    font-family: 'Signika Negative', sans-serif;
+    margin-top: 40px;
+    /* padding: %; */
+}
+.fatherdabba{
+    display: flex;
+    /* max-width:100% ; */
+    
+}
+.dabba1{
+/* padding: 10%  ; */
+}
+.dabba2{
+    margin-left: 8%;
+    /* padding: 10px  ; */
+}
+.dabba3{
+    margin-left: 10%;
+    /* padding: 10px  ; */
+}
+
+.kiet{
+    justify-content: center;
+    text-align: left;
+    font-size:22px;
+    color: #8c8b9e;
+    /* margin-left: 50px; */
+}
+/* .kiet p{
+    margin-left: 10px;
+} */
+
+p .line1{
+    margin-left: 20px;
+}
+.recieve{
+    font-size: 22px;
+    margin-top: 10px;
+    color: #8c8b9e;
+}
+.input{
+    margin-top: 20px;
+    width: fit-content;
+    border: 2px solid #201dd0;
+    padding: 14px 30px;
+    border-radius: 10px;
+   
+    text-decoration: none;
+    /* color: #4644a8; */
+    background-color: #e7e7f6;
+    transition: 0.5s;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    /* display: inline-block; */
+}
+.btnOUT{
+    /* margin-left: 30px; */
+    margin-top: 20px;
+    width: fit-content;
+    border: 1px solid #4644a8;
+    padding: 14px 50px;
+    border-radius: 13px;
+    text-decoration: none;
+    color: #4644a8;
+    transition: 0.5s;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btnOUT:hover{
+    background-color: #4644a8;
+    color: black;
+}
+.to{
+    display: inline-block;
+}
+.social-icons{
+    margin-top: 15px;
+
+}
+.social-icons a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: #000000;
+    display: inline-block;
+    font-size: 25px;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: #201dd0;
+    transform: translateY(-5px)
+}  
+.fa-solid{
+    font-size: 25px;
+    color: #000000;
+} 
+.list{
+    display: flex;
+
+}
+.list ul{
+    text-decoration: none;
+    list-style: none;
+    font-size: 22px;
+    margin-top: 10px;
+    color: #8c8b9e;
+}
+.list li{
+    margin: 10px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 15px;
+    color: #8c8b9e;
+    font-family: 'Signika Negative', sans-serif;
+}
+.copyright i{
+    color: #fc0303;
+    font-size: 20px;
+}
+
+
 @media only screen and (max-width: 850px){
    
     nav .fa-solid{
@@ -363,8 +538,25 @@ nav .fa-solid{
     }
     .half1 img{
         width:330px;
-        
     }
+  .fatherdabba{
+    display: flex;
+    flex-direction: column;
+  }
+  .dabba1{
+    padding: 10px 0 14%;
+  }
+  .dabba2{
+    margin-left: 0%;
+    padding: 10px 0 14%;
+}
+.dabba3{
+    margin-left: 0%;
+    padding: 10px 0 ;
+}
+.btnIN{
+    margin-left: 0;
+}
     
 }
 
