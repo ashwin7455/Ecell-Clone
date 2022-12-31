@@ -111,17 +111,15 @@ nav .fa-solid{
 .box1{
     max-width: 100%;
     margin-top: 7%;
-    padding: 20px;
+    /* padding: 20px; */
 }
 .box2{
     max-width: 50%;
     margin-top: 5%;
-    margin-left: 5%;
-    /* padding: 30px; */
+ 
 }
 .box2 img{
     width: 580px;
-    /* margin-left: 10%; */
    
 }
 .half1{
@@ -528,7 +526,17 @@ p .line1{
     }
     .header-text2{
         display:flex;
+        /* font-size: 50px; */
         flex-direction:column;
+    }
+    .content{
+        font-size: 25px;
+    }
+    .content2{
+        font-size: 25px;
+    }
+    .content3{
+        font-size: 25px;
     }
     .box2 img{
         width:330px;
