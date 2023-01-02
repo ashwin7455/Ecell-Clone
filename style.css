@@ -35,11 +35,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
-
-=======
-    flex-wrap: wrap;
->>>>>>> 547b9eeabe357e4364d22ebbebf160a3d15c51b7
 }
 .navbar{
     z-index: 99999;
