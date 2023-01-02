@@ -17,7 +17,7 @@ html{
     background-color: #e7e7f6;
 }
 
-.capital{
+/* .capital{
     color: #4644a8;
     font-size: 45px;
     font-family: 'Signika Negative', sans-serif;
@@ -25,11 +25,14 @@ html{
 .small{
 font-size: 45px;
 font-family: 'Signika Negative', sans-serif;
-}
+} */
 .brand{
     width:180px;
     display: flex;
     font-family: 'Signika Negative', sans-serif;
+}
+.brand img{
+    width: 40%;
 }
 
 /* .container{
@@ -41,7 +44,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    /* position: fixed; */
+
     /* font-family: 'Signika Negative', sans-serif; */
 }
 .navbar{
@@ -96,7 +101,7 @@ nav .fa-solid{
    font-family: 'Signika Negative', sans-serif;
 }
 .header-text h1 p{
-   font-size: 60px;
+   font-size: 54px;
    margin-top: 20px;
    font-family: 'Signika Negative', sans-serif;
 }
@@ -106,7 +111,7 @@ nav .fa-solid{
 }
 .header-text h1{
     font-family: 'Signika Negative', sans-serif;
-    font-size: 60px;
+    font-size: 54px;
 }
 .box1{
     max-width: 100%;
@@ -142,6 +147,12 @@ nav .fa-solid{
     padding: 4%;
     margin-right: 4%;
 }
+.half2 p{
+    font-size: 54px;    
+}
+.half2 p span{
+    font-size: 54px;
+}
 .para{
     margin-top: 5%;
     justify-content: center;
@@ -150,9 +161,10 @@ nav .fa-solid{
 }
 .content{
     color: #8c8b9e;
-    font-size: 27px;
+    font-size: 22px;
     font-family: 'Signika Negative', sans-serif;
-    /* margin-top: 15px; */
+    padding: 0;
+    /* margin-bottom: 25px; */
     /* font-family: 'Indie Flower', cursive; */
     
 }
@@ -170,7 +182,7 @@ nav .fa-solid{
     font-family: 'Signika Negative', sans-serif;
     font-size: 20px;
     cursor: pointer;
-    /* margin-right: 70px; */
+    box-shadow: 0 0 5px 5px;
 }
 .btn:hover{
     background-color: #4644a8;
@@ -186,7 +198,7 @@ nav .fa-solid{
    font-family: 'Signika Negative', sans-serif;
 }
 .header-text2 h1 p{
-   font-size: 60px;
+   font-size: 45px;
    margin-top: 20px;
    font-family: 'Signika Negative', sans-serif;
 }
@@ -206,7 +218,7 @@ nav .fa-solid{
 }
 .content2{
     color: #8c8b9e;
-    font-size: 27px;
+    font-size: 20px;
     justify-content: center;
     text-align:justify;
     font-family: 'Signika Negative', sans-serif;
@@ -239,7 +251,7 @@ nav .fa-solid{
    font-family: 'Signika Negative', sans-serif;
 }
 .header-text3 h1 p{
-   font-size: 60px;
+   font-size: 54px;
    margin-top: 20px;
    font-family: 'Signika Negative', sans-serif;
 }
@@ -259,40 +271,35 @@ nav .fa-solid{
     text-align:center;
 }
 .para2{
-    /* margin-top: 5%; */
+
     width: 100%;
         justify-content: center;
         text-align:center;
-    /* padding: 10%; */
+    
 }
 .content3{
     color: #8c8b9e;
-    font-size: 27px;
+    font-size: 20px;
     font-family: 'Signika Negative', sans-serif;
 }
 .content3 span{
     font-weight: bolder;
 }
-/* .button{
-    display: flex;
-} */
 
-/* .card{
-    padding: 30px 0;
-
-} */
 .services-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px , 1fr));
     grid-gap:100px;
     font-family: 'Signika Negative', sans-serif;
-    /* margin-left: -50px; */
-    
-    /* margin-right: -50px; */
+    /* box-shadow: 10px 10px; */
 
 }
+.shadow{
+    box-shadow: 0px 0px 6px 6px;
+    background-color:#e7e7f6
+}
 .sub-titles{
-    font-size: 60px;
+    font-size: 54px;
     font-weight: 600;
     font-family: 'Signika Negative', sans-serif;
     
@@ -338,10 +345,13 @@ nav .fa-solid{
     font-family: 'Signika Negative', sans-serif;
     font-size: 20px;
     cursor: pointer;
+    box-shadow: 0 0 2px 2px;
+    
 }
 .btn3:hover{
     background-color: #4644a8;
     color: black;
+    /* box-shadow: 0 0 3px 3px; */
 }
 
 .btnIN{
@@ -375,32 +385,45 @@ nav .fa-solid{
     /* max-width:100% ; */
     
 }
+.dabba1 h2{
+    font-size: 35px;
+}
 
 .dabba2{
-    margin-left: 8%;
+    margin-left: 12%;
     /* padding: 10px  ; */
+}
+.dabba2 h2{
+    font-size: 35px;
 }
 .dabba3{
-    margin-left: 10%;
+    margin-left: 18%;
     /* padding: 10px  ; */
 }
-
-.kiet{
+.dabba3 h2{
+    font-size: 35px;
+}
+.kiet div{
     justify-content: center;
     text-align: left;
-    font-size:22px;
+    font-size:15px;
     color: #8c8b9e;
     /* margin-left: 50px; */
 }
-/* .kiet p{
-    margin-left: 10px;
-} */
+.kiet p{
+    font-size: 18px;
+    color: #8c8b9e;
+}
+.kiet i{
+    font-size: 18px;
+    /* color: #8c8b9e; */
+}
 
 p .line1{
     margin-left: 20px;
 }
 .recieve{
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 10px;
     color: #8c8b9e;
 }
@@ -433,6 +456,7 @@ p .line1{
     font-family: 'Signika Negative', sans-serif;
     font-size: 20px;
     cursor: pointer;
+    box-shadow:0 0 2px 2px;
 }
 .btnOUT:hover{
     background-color: #4644a8;
@@ -468,7 +492,7 @@ p .line1{
 .list ul{
     text-decoration: none;
     list-style: none;
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 10px;
     color: #8c8b9e;
 }
@@ -530,13 +554,13 @@ p .line1{
         flex-direction:column;
     }
     .content{
-        font-size: 25px;
+        font-size: 20px;
     }
     .content2{
-        font-size: 25px;
+        font-size: 20px;
     }
     .content3{
-        font-size: 25px;
+        font-size: 20px;
     }
     .box2 img{
         width:330px;
@@ -563,6 +587,7 @@ p .line1{
 .btnIN{
     margin-left: 0;
 }
+
     
 }
 
